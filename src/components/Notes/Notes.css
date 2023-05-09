@@ -1,0 +1,128 @@
+.notes-containers {
+  display: flex;
+  flex-direction: column;
+  background: #f7ecdc;
+  width: 76.7vw;
+  height: 99.5vh;
+  position: relative;
+  top: -7.5rem;
+  left: 19.5rem;
+}
+
+.image img {
+  position: relative;
+  width: 20rem;
+  height: 14rem;
+  left: 23rem;
+  top: 1rem;
+}
+
+.heading {
+  position: relative;
+  width: 19rem;
+  height: 3.5rem;
+  left: 25rem;
+  top: 1rem;
+}
+
+.heading h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.sub-heading {
+  position: relative;
+  width: 40rem;
+  height: 4rem;
+  left: 14rem;
+  top: 3.5rem;
+}
+
+.sub-heading p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.02em;
+  color: #292929;
+}
+
+.encryption {
+  position: relative;
+  width: 13.5rem;
+  height: 2rem;
+  left: 27rem;
+  top: 15rem;
+  display: flex;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: 0.02em;
+  color: #292929;
+}
+
+.encryption img {
+  height: 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .notes-containers {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+  }
+
+  .heading {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    text-align: center;
+  }
+
+  .heading h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .sub-heading {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    text-align: center;
+  }
+
+  .sub-heading p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .encryption {
+    width: 100%;
+    height: auto;
+    left: 1rem;
+    top: 0;
+    text-align: center;
+  }
+
+  .encryption img {
+    height: 1rem;
+  }
+}

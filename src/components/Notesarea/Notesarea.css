@@ -1,0 +1,230 @@
+.notes-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -20rem;
+  left: 8.6rem;
+  height: 129.8vh;
+  width: 61rem;
+}
+
+.notesarea {
+  position: relative;
+  width: 76.95vw;
+  height: 50%;
+  top: 12.4375rem;
+  background: #f7ecdc;
+  border-radius: 0rem 0rem 0rem 0.9375rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
+.notesarea .notes .notes-text {
+  position: relative;
+  width: 50.1875rem;
+  height: 1.875rem;
+  left: 9.375rem;
+  top: 1.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.6019;
+  letter-spacing: 0.002188rem;
+  color: #000000;
+}
+
+.notesarea .notes .notes-time {
+  position: relative;
+  width: 5.3125rem;
+  height: 1.0625rem;
+  left: 0.9375rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1647rem;
+  line-height: 0.9769;
+  letter-spacing: 0.00125rem;
+  color: #353535;
+}
+
+.notesarea .notes .notes-date {
+  position: relative;
+  width: 7.5rem;
+  height: 1.125rem;
+  left: 0.9375rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.16466rem;
+  line-height: 97.69%;
+  letter-spacing: 0.02em;
+  color: #353535;
+}
+
+textarea {
+  position: relative;
+  width: 76.3vw;
+  height: 9.7rem;
+  top: 12.5rem;
+  background: #ffffff;
+  border: 0.0625rem solid #cccccc;
+  border-radius: 0.5625rem;
+}
+
+::placeholder {
+  position: relative;
+  width: 24.4175rem;
+  height: 2.1875rem;
+  left: 0.625rem;
+  top: 0.625rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.86348rem;
+  line-height: 2.1875rem;
+  letter-spacing: 0.02em;
+  color: #9a9a9a;
+}
+
+.textarea img {
+  position: relative;
+  left: 61.25rem;
+  right: 1.929375rem;
+  top: 9.6875rem;
+  bottom: 4.975rem;
+  cursor: pointer;
+}
+
+.displayed-group {
+  position: relative;
+  width: 76.7vw;
+  height: 8%;
+  top: 12.4375rem;
+  display: flex;
+  background: #e8e8e8;
+}
+
+.displayed-group .back-arrow {
+  position: relative;
+  top: 30%;
+  left: 0.625rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.displayed-group .circlename {
+  position: relative;
+  left: 0.4375rem;
+  top: 0.6875rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #0047ff;
+  background-color: #b38bfa;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 50%;
+}
+
+.displayed-group p {
+  position: relative;
+  width: 8.5625rem;
+  height: 1.5rem;
+  left: 1.25rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.29257rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  .notes-container {
+    top: -10rem;
+    left: -1rem;
+    height: auto;
+    width: 100%;
+  }
+  .notesarea {
+    top: 6.25rem;
+    height: 40%;
+    width: 100%;
+  }
+
+  .notesarea .back-arrow img {
+    cursor: pointer;
+  }
+
+  .notesarea .notes .notes-text {
+    width: 100%;
+    left: 6rem;
+    top: 2rem;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .notesarea .notes .notes-time {
+    width: auto;
+    left: 0.625rem;
+    font-size: 0.875rem;
+    line-height: 1.1;
+  }
+  .notesarea .notes .notes-date {
+    width: auto;
+    left: 0.625rem;
+    font-size: 0.875rem;
+    line-height: 1.1;
+  }
+  textarea {
+    width: 100%;
+    height: 7.5rem;
+    top: 6.5rem;
+  }
+  ::placeholder {
+    width: 100%;
+    height: 1.5rem;
+    left: 0.625rem;
+    top: 0.625rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  .notes-container .textarea img {
+    position: relative;
+    left: -10rem;
+    top: 3.5rem;
+  }
+
+  .displayed-group {
+    position: relative;
+    top: 6.25rem;
+    width: 100%
+  }
+  .displayed-group .back-arrow {
+    display: flex;
+    position: relative;
+    top: 1rem;
+    left: 0rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+  }
+
+  .displayed-group .circlename {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+  .displayed-group p {
+    width: 7rem;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+}

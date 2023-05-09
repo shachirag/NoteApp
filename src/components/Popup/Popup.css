@@ -1,0 +1,304 @@
+.popup-container {
+  position: relative;
+  top: -7.5rem;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(47, 47, 47, 0.75);
+  z-index: 100;
+  opacity: 1;
+}
+
+.popup {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 31rem;
+  height: 20rem;
+  border: 0.0625rem solid black;
+  background: #ffffff;
+  border-radius: 0.4rem;
+  z-index: none;
+  opacity: none;
+}
+
+.popup h1 {
+  position: relative;
+  width: 21rem;
+  height: 2.5rem;
+  left: 1.25rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 160.19%;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.popup .name {
+  display: flex;
+}
+
+.popup .group-name {
+  position: relative;
+  width: 10.6rem;
+  height: 3rem;
+  left: 1.25rem;
+  top: 1.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 160.19%;
+  letter-spacing: 0.035em;
+  color: #000000;
+}
+
+.popup #group-name {
+  position: relative;
+  width: 17.5rem;
+  height: 2.5rem;
+  left: 2rem;
+  top: 1.5rem;
+  background: #ffffff;
+  border: 0.125rem solid #cccccc;
+  border-radius: 1.5rem;
+}
+
+.popup #group-name::placeholder {
+  position: relative;
+  left: 1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 130%;
+  letter-spacing: 0.035em;
+  color: #979797;
+}
+
+.popup .color {
+  display: flex;
+}
+
+.popup .group-color {
+  position: relative;
+  width: 12.5rem;
+  height: 3rem;
+  left: 1.25rem;
+  top: 2.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 160.19%;
+  letter-spacing: 0.035em;
+  color: #000000;
+}
+
+.popup .choose-color {
+  position: relative;
+  width: 17.5rem;
+  height: 2.5rem;
+  top: 3rem;
+  left: 1rem;
+}
+
+.popup button {
+  position: absolute;
+  width: 8.75rem;
+  height: 2.5rem;
+  left: 21.25rem;
+  top: 16.25rem;
+  background: #000000;
+  border-radius: 0.7rem;
+  color: white;
+  cursor: pointer;
+}
+
+.popup button span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 160.19%;
+  letter-spacing: 0.035em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.popup-container {
+  position: relative;
+  top: -5.5rem;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(47, 47, 47, 0.75);
+  z-index: 100;
+  opacity: 1;
+}
+
+.popup {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 31rem;
+  height: 20rem;
+  border: 0.0625rem solid black;
+  background: #ffffff;
+  border-radius: 0.4rem;
+  z-index: none;
+  opacity: none;
+}
+
+.popup h1 {
+  position: relative;
+  width: 21rem;
+  height: 2.5rem;
+  left: 1.25rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 160.19%;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.popup .name {
+  display: flex;
+}
+
+.popup .group-name {
+  position: relative;
+  width: 10.6rem;
+  height: 3rem;
+  left: 1.25rem;
+  top: 1.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 160.19%;
+  letter-spacing: 0.035em;
+  color: #000000;
+}
+
+.popup #group-name {
+  position: relative;
+  width: 17.5rem;
+  height: 2.5rem;
+  left: 2rem;
+  top: 1.5rem;
+  background: #ffffff;
+  border: 0.125rem solid #cccccc;
+  border-radius: 1.5rem;
+}
+
+.popup #group-name::placeholder {
+  position: relative;
+  left: 1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 130%;
+  letter-spacing: 0.035em;
+  color: #979797;
+}
+
+.popup .color {
+  display: flex;
+}
+
+.popup .group-color {
+  position: relative;
+  width: 12.5rem;
+  height: 3rem;
+  left: 1.25rem;
+  top: 2.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 160.19%;
+  letter-spacing: 0.035em;
+  color: #000000;
+}
+
+.popup .choose-color {
+  position: relative;
+  width: 17.5rem;
+  height: 2.5rem;
+  top: 3rem;
+  left: 1rem;
+}
+
+.popup button {
+  position: absolute;
+  width: 8.75rem;
+  height: 2.5rem;
+  left: 21.25rem;
+  top: 16.25rem;
+  background: #000000;
+  border-radius: 0.7rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .popup {
+    width: 80%;
+    height: 70%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .popup h1 {
+    width: 80%;
+    font-size: 1.5rem;
+    line-height: 140%;
+    text-align: center;
+  }
+
+  .popup .group-name {
+    width: 80%;
+    height: 2.5rem;
+    top: 2.5rem;
+    font-size: 1.5rem;
+  }
+
+  .popup #group-name {
+    width: 80%;
+    height: 2.5rem;
+    left: 22%;
+    transform: translateX(-50%);
+    top: 2rem;
+  }
+
+  .popup .group-color {
+    width: 80%;
+    height: 2.5rem;
+    top: 5rem;
+    font-size: 1.5rem;
+  }
+
+  .popup .choose-color {
+    width: 80%;
+    height: 2.5rem;
+    top: 6.5rem;
+    left: 25%;
+    transform: translateX(-50%);
+  }
+
+  .popup button {
+    width: 80%;
+    height: 2.5rem;
+    left: 50%;
+    top: 20rem;
+    transform: translateX(-50%);
+    font-size: 1.25rem;
+  }
+}

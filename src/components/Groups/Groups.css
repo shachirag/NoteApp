@@ -1,0 +1,211 @@
+.groups-container {
+  width: 90rem;
+  height: 100vh;
+}
+
+.pocket-notes {
+  position: relative;
+  width: 12rem;
+  height: 2.5rem;
+  left: 0.5rem;
+  display: flex;
+}
+
+.pocket-notes p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.create-notes {
+  display: flex;
+  position: relative;
+  width: 18.5rem;
+  height: 3rem;
+  top: 2rem;
+  left: 0.5rem;
+  background: #000000;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.create-notes span {
+  position: relative;
+  width: 1.5rem;
+  height: 2.5rem;
+  left: 2rem;
+  top: 0.4rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 97.69%;
+  letter-spacing: 0.02em;
+  color: white;
+  cursor: pointer;
+}
+
+.create-notes p {
+  position: relative;
+  width: 15rem;
+  height: 1.6rem;
+  left: 3rem;
+  top: -0.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 97.69%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.group {
+  display: flex;
+  cursor: pointer;
+}
+
+.group p {
+  position: relative;
+  width: 8.57rem;
+  height: 1.5rem;
+  left: 3.125rem;
+  top: 1.25rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.29rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.circle {
+  position: relative;
+  left: 2.5rem;
+  top: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #0047ff;
+  background-color: #b38bfa;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 50%;
+}
+
+.components {
+  display: flex;
+  position: relative;
+  top: 2rem;
+  width: 24rem;
+  height: 31.4rem;
+}
+
+/* For screens smaller than 768px (i.e. mobile devices) */
+
+@media only screen and (max-width: 767px) {
+  .groups-container {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .pocket-notes {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .pocket-notes p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .create-notes {
+    width: 100%;
+    height: 3rem;
+    top: 1rem;
+    left: 0;
+  }
+
+  .create-notes span {
+    position: relative;
+    width: 1.5rem;
+    height: 2.5rem;
+    left: 4rem;
+    top: 0.5rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 97.69%;
+    letter-spacing: 0.02em;
+    color: white;
+    cursor: pointer;
+  }
+
+  .create-notes p {
+    position: relative;
+    width: 15rem;
+    height: 1.6rem;
+    left: 6rem;
+    top: -0.5rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 97.69%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .group-list {
+    width: 100%;
+    border: 0.0625rem solid black;
+    overflow-y: scroll;
+    display: flex;
+  }
+
+  .group p {
+    width: 100%;
+    left: 2rem;
+    top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .circle {
+    left: 1.5rem;
+    top: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .components {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .notes-displayed {
+    width: 100%;
+    position: relative;
+    left: 0;
+    margin-top: 1rem;
+  }
+}
